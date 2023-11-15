@@ -11,6 +11,7 @@ public class Main {
 		double number2 = scanner.nextDouble();
 		
 		Calculadora.result(number1, number2);	
+		scanner.close();
 	}
 
 }
