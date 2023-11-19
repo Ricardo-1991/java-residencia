@@ -37,7 +37,6 @@ public class Calculadora {
 			System.out.println("Escolha uma operador matemático para calcular os números ou digite 0 para sair: ");
 			option = scanner.next().charAt(0);
 		
-			
 			switch(option) {
 				case '+':
 					 result = sum(number1, number2);
@@ -66,6 +65,16 @@ public class Calculadora {
 					System.out.println("Opção inválida");
 				break;
 			}
+			
+			System.out.println("Você deseja mudar os números do cálculo? ('s' - Sim; Qualquer tecla - Não) ");
+			char changeNumber = scanner.next().charAt(0);
+			
+			if(changeNumber == 's') {
+				System.out.println("Digite o primeiro numero: ");
+				number1 = scanner.nextDouble();
+				System.out.println("Digite o segundo numero: ");
+				number2 = scanner.nextDouble();
+			}	
 		}while(option != '0');
 		scanner.close();
 	}
