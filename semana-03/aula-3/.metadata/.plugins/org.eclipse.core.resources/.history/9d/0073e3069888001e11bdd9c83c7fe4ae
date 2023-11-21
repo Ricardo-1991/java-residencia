@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Quiz {
+	private String pergunta;
+	private ArrayList<String> alternativas;
+	private int alternativa;
+	
+	public void getPergunta(String pergunta) {
+		this.pergunta = pergunta; 
+	}
+	
+	public void getAlternativas() {
+		
+	}
+}

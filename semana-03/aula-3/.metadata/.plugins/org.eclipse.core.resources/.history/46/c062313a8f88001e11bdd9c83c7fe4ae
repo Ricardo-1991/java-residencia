@@ -1,0 +1,27 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		float x = 2;
+		float y = 0;
+		do {
+			y = x;
+			x = x / 2;
+			
+		}while(x > 0);
+		
+		System.out.println(y);
+		
+		double x2 = 2;
+		double y2 = 0;
+		do {
+			y2 = x2;
+			x2 = x2 / 2;
+			
+		}while(x2 > 0);
+		
+		System.out.println(y);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Quiz {
+	private String pergunta;
+	private ArrayList<String> respostas = new ArrayList<String>();
+	private int alternativa;
+	
+	public void getPergunta(String pergunta) {
+		this.pergunta = pergunta; 
+	}
+	
+	public void getRespostas(String resp1, String resp2, String resp3, String resp4) {
+		this.respostas.addAll(resp1);
+	}
+}
