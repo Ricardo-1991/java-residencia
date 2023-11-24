@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Rede-Social</name>
+	<name>jogo-de-advinhacao</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1700412166719</id>
+			<id>1700412166714</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
